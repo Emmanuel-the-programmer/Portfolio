@@ -4,17 +4,54 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-    max-height: 100vh;
+.all{
+    height: fit-content;
 }
-.hero{
-    height: 50px;
-    width: 100%;
+.container{
+    width: 1000;
+    /* height: 50px;  */
     background-color: rgba(0, 0, 0, 0.829);
     background-size: cover;
     background-position: center;
+    padding: auto;   
+}
+.fill{
+    padding: 20px;
+    /* padding-left: 350px; */
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    width: 1000;
+    height: fit-content;
+}
+h1{
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+.sign{
+    
+    padding-left: 30px;
+}
+form{
+    /* padding: 30px; */
+}
+input[type]{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+button:hover{
+    transform: scale(1.2);
 }
 .navbar{
     margin: 0;
@@ -38,7 +75,6 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
 }
-/* the styling below needs changes */
 nav ul li a:hover{
     color: #f9004d;
     transition: .4s;
@@ -46,7 +82,7 @@ nav ul li a:hover{
 footer{
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 400px;
     background: #101010;
     display: flex;
     flex-direction: column;
